@@ -93,7 +93,7 @@ class _RatingStarState extends State<_RatingpageStar> {
           content: Column(
             children: <Widget>[
               Text("Beri rating untuk aplikasi ini"),
-              RatingStar(
+              RatingStarFull(
                 rating: _rating,
                 starCount: 5,
                 onRatingChanged: (rat) {
