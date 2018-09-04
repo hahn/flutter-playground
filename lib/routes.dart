@@ -6,6 +6,8 @@ import 'nav/navigasi.dart';
 import 'bubble/bubble_chat.dart';
 import 'splashlogo/splash_logo.dart';
 import 'rating/ratingpage.dart';
+import 'appbarbottom/appbar_bottom_widget.dart';
+import 'welcome/welcome.dart';
 
 final routes = {
   "/autocomplete": (BuildContext context) => AutocompleteApp(),
@@ -14,5 +16,7 @@ final routes = {
   "/navigasi": (BuildContext context) => SecondPage(),
   "/rating": (BuildContext context) => Ratingpage(),
   "/splash": (BuildContext context) => LogoApp(),
+  "/appbar": (BuildContext context) => AppBarBottomSample(),
+  "/welcome": (BuildContext context) => WelcomeScreen(),
 
 };
