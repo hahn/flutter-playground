@@ -54,6 +54,8 @@ class _MainApp extends State<MainApp> {
         _buildRow("Rating Star", "/rating"),
         _buildRow("Appbar bottom Widget", "/appbar"),
         _buildRow("Welcome page", "/welcome"),
+        _buildRow("Test", "/tes"),
+        _buildRow("Carousel Pro", "/carouselpro"),
       ],
     );
   }

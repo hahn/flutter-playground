@@ -8,6 +8,8 @@ import 'splashlogo/splash_logo.dart';
 import 'rating/ratingpage.dart';
 import 'appbarbottom/appbar_bottom_widget.dart';
 import 'welcome/welcome.dart';
+import 'test/tes.dart';
+import 'carousel_pro/carousel_page.dart';
 
 final routes = {
   "/autocomplete": (BuildContext context) => AutocompleteApp(),
@@ -18,5 +20,7 @@ final routes = {
   "/splash": (BuildContext context) => LogoApp(),
   "/appbar": (BuildContext context) => AppBarBottomSample(),
   "/welcome": (BuildContext context) => WelcomeScreen(),
+  "/tes": (BuildContext context) => MyApp(),
+  "/carouselpro": (BuildContext context) => CarouselPage(),
 
 };

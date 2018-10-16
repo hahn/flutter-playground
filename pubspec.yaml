@@ -19,6 +19,7 @@ dependencies:
   intl: ^0.15.7
   http: ^0.11.3+17
   json_annotation: "^0.2.9"
+  carousel_pro: ^0.0.13
 
 dev_dependencies:
 #  flutter_test:
